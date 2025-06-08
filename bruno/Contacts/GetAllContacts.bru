@@ -1,0 +1,16 @@
+meta {
+  name: GetAllContacts
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{PATH}}/contacts?searchTerm&page=1
+  body: none
+  auth: none
+}
+
+params:query {
+  searchTerm: 
+  page: 1
+}

@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|c:\\users\\anner\\documents\\proyectos\\authwithcookies\\server\\cookiesproyect\\cookiesproyect\\database\\constactstestseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|solutionrelative:cookiesproyect\\database\\constactstestseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|c:\\users\\anner\\documents\\proyectos\\authwithcookies\\server\\cookiesproyect\\cookiesproyect\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|solutionrelative:cookiesproyect\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|c:\\users\\anner\\documents\\proyectos\\authwithcookies\\server\\cookiesproyect\\cookiesproyect\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA18FD3-C4A9-41FB-A28A-544B4C4E96C3}|CookiesProyect\\CookiesProyect.csproj|solutionrelative:cookiesproyect\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 351,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Startup.cs",
+              "RelativeDocumentMoniker": "CookiesProyect\\Startup.cs",
+              "ToolTip": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Startup.cs",
+              "RelativeToolTip": "CookiesProyect\\Startup.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA4wC4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:45:02.821Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConstactsTestSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Database\\ConstactsTestSeeder.cs",
+              "RelativeDocumentMoniker": "CookiesProyect\\Database\\ConstactsTestSeeder.cs",
+              "ToolTip": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Database\\ConstactsTestSeeder.cs",
+              "RelativeToolTip": "CookiesProyect\\Database\\ConstactsTestSeeder.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:05:04.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CookiesProyect\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\anner\\Documents\\Proyectos\\AuthWithCookies\\server\\CookiesProyect\\CookiesProyect\\Services\\AuthService.cs",
+              "RelativeToolTip": "CookiesProyect\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0BAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:51:59.89Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
