@@ -1,5 +1,9 @@
 # 🍪 Cookies Test - Autenticación Segura
 
+## 🌐 Available Languages
+- [Español](README.md)  ← Estás aquí
+- [English](README.en.md) 
+
 ## 📋 Descripción del Proyecto
 
 Este repositorio es una implementación de prueba que demuestra el uso seguro de cookies HTTP-Only para autenticación y autorización en aplicaciones web, como alternativa más segura al almacenamiento de JWT tokens en localStorage.
@@ -10,8 +14,8 @@ Tradicionalmente, muchas aplicaciones web almacenan JWT tokens en `localStorage`
 
 ## ✅ Solución Implementada
 
-### Persistant Cookies HTTP-Only
-En lugar de usar `localStorage`, esta implementación utiliza **persistant cookies HTTP-Only** para almacenar:
+### s Cookies HTTP-Only
+En lugar de usar `localStorage`, esta implementación utiliza **persistent cookies HTTP-Only** para almacenar:
 - **Access Token (JWT)**: Para la autenticación del usuario
 - **Refresh Token**: Para renovar automáticamente el access token
 
