@@ -1,43 +1,50 @@
-# 🍪 Cookies Test - Autenticación Segura
+# 🍪 Cookies Test - Secure Authentication
 
 ## 🌐 Available Languages
-- [Español](README.md)  ← Estás aquí
-- [English](README.en.md) 
+- [Español](README.es.md)
+- [English](README) ← You are here
 
-## 📋 Descripción del Proyecto
+## 📋 Project Description
 
-Este repositorio es una implementación de prueba que demuestra el uso seguro de cookies HTTP-Only para autenticación y autorización en aplicaciones web, como alternativa más segura al almacenamiento de JWT tokens en localStorage.
+This repository is a test implementation demonstrating the secure use of HTTP-Only cookies for authentication and authorization in web applications, as a safer alternative to storing JWT tokens in localStorage.
 
-## 🔐 Problema de Seguridad Identificado
+## 🔐 Security Problem Identified
 
-Tradicionalmente, muchas aplicaciones web almacenan JWT tokens en `localStorage` del navegador para mantener la sesión del usuario. Sin embargo, esta práctica presenta una **vulnerabilidad crítica** a ataques XSS (Cross-Site Scripting), ya que cualquier script malicioso puede acceder fácilmente a `localStorage` y robar los tokens de autenticación.
+Traditionally, many web applications store JWT tokens in the browser's `localStorage` to maintain user sessions. However, this practice presents a **critical vulnerability** to XSS (Cross-Site Scripting) attacks, as any malicious script can easily access `localStorage` and steal authentication tokens.
 
-## ✅ Solución Implementada
+## ✅ Implemented Solution
 
-### s Cookies HTTP-Only
-En lugar de usar `localStorage`, esta implementación utiliza **persistent cookies HTTP-Only** para almacenar:
-- **Access Token (JWT)**: Para la autenticación del usuario
-- **Refresh Token**: Para renovar automáticamente el access token
+### Persistent HTTP-Only Cookies
+Instead of using `localStorage`, this implementation uses **persistent HTTP-Only cookies** to store:
+- **Access Token (JWT)**: For user authentication
+- **Refresh Token**: To automatically renew the access token
 
-### Ventajas de esta Aproximación:
-- 🛡️ **Protección contra XSS**: Las cookies HTTP-Only no son accesibles desde JavaScript
-- 🔄 **Renovación automática**: Sistema de refresh tokens para mantener la sesión
-- 🔒 **Mayor seguridad**: Los tokens se envían automáticamente en cada petición HTTP
-- ⛔ **Expiración**: Las cookies tienen el mismo tiempo de expiracion que el JWT y Refresh Token, respectivamente.
+### Advantages of this Approach:
+- 🛡️ **XSS Protection**: HTTP-Only cookies are not accessible from JavaScript
+- 🔄 **Automatic renewal**: Refresh token system to maintain sessions
+- 🔒 **Enhanced security**: Tokens are sent automatically with each HTTP request
+- ⛔ **Expiration**: Cookies have the same expiration time as the JWT and Refresh Token, respectively.
 
-## 🏗️ Arquitectura del Sistema
+## 🏗️ System Architecture
 
-### Sistema de Autenticación y Autorización
-- **Aplicación**: Lista de contactos con roles de usuario 
-- **Roles disponibles**: 
-  - `USER`: Usuarios normales
-  - `ADMIN`: Administradores 
-- **Funcionalidades**: CRUD de contactos con autorización basada en roles
+### Authentication and Authorization System
+- **Application**: Contact list with user roles
+- **Available roles**:
+  - `USER`: Regular users
+  - `ADMIN`: Administrators
+- **Features**: Contact CRUD with role-based authorization
 
-**NOTA**: No se le dió permisos especiales a los `ADMIN`.
-## 👥 Usuarios de Prueba
+**NOTE**: No special permissions were given to `ADMIN` users.
 
-### Usuarios Normales (Rol: USER)
+## 🌐 Live Demo
+
+**You can test the application directly at**: [https://golden-eclair-48296b.netlify.app](https://golden-eclair-48296b.netlify.app)
+
+No need to install anything locally to test the features. Simply use any of the test users listed below with the password `Temporal01*`.
+
+## 👥 Test Users
+
+### Regular Users (Role: USER)
 ```
 naara.chavez@unah.hn
 pilarh_hn@gmail.com
@@ -53,61 +60,50 @@ ruthquintanilla3@icloud.com
 s_hqz2@gmail.com
 ```
 
-### Administradores (Rol: ADMIN)
+### Administrators (Role: ADMIN)
 ```
 annerh3@gmail.com
 admin@gmail.com
 ```
 
-**Contraseña para todos los usuarios**: `Temporal01*`
+**Password for all users**: `Temporal01*`
 
-## 🎮 Cómo Probar la Aplicación
+## 🎮 How to Test the Application
 
-1. **Accede a la demo**: [https://golden-eclair-48296b.netlify.app](https://golden-eclair-48296b.netlify.app)
+1. **Access the demo**: [https://golden-eclair-48296b.netlify.app](https://golden-eclair-48296b.netlify.app)
 
-2. **Inicia sesión** con cualquiera de los usuarios de prueba:
-   - Contraseña: `Temporal01*`
+2. **Log in** with any of the test users:
+   - Password: `Temporal01*`
 
-3. **Observa las cookies** en las herramientas de desarrollador:
-   - Ve a DevTools → Application → Cookies
-   - Notarás que los tokens están almacenados como cookies HTTP-Only
-   - Intenta acceder a estas cookies desde la consola - verás que no es posible
+3. **Observe the cookies** in developer tools:
+   - Go to DevTools → Application → Cookies
+   - You'll notice tokens are stored as HTTP-Only cookies
+   - Try accessing these cookies from the console - you'll see it's not possible
 
-4. **Prueba las funcionalidades**:
-   - Visualiza contactos.
+4. **Test the features**:
+   - View contacts.
 
-## 🌐 Demo en Vivo
+## 🔧 Technologies Used
 
-**Puedes probar la aplicación directamente en**: [https://golden-eclair-48296b.netlify.app](https://golden-eclair-48296b.netlify.app)
+- **Backend**: (Specify: Node.js, Express, etc.)
+- **Database**: (Specify: MySQL, PostgreSQL, etc.)
+- **Authentication**: JWT with HTTP-Only cookies
+- **Frontend**: (Specify: React, Vue, etc.)
 
-No necesitas instalar nada localmente para probar las funcionalidades. Simplemente usa cualquiera de los usuarios de prueba listados más abajo con la contraseña `Temporal01*`.
+## 📡 API Endpoints
 
+### Authentication
+- `POST api/auth/login` - Log in
+- `POST api/auth/refresh-token` - Refresh token
+- `GET api/auth/validate` - Validate user authentication.
 
-## 🔧 Tecnologías Utilizadas
+### Contacts
+- `GET api/contacts` - List contacts
 
-- **Backend**: (Especificar: Node.js, Express, etc.)
-- **Base de datos**: (Especificar: MySQL, PostgreSQL, etc.)
-- **Autenticación**: JWT con cookies HTTP-Only
-- **Frontend**: (Especificar: React, Vue, etc.)
+## 🤝 Contributing
 
-## 📡 Endpoints de la API
+This is a test and learning project. Contributions are welcome to improve the security implementation.
 
-### Autenticación
-- `POST api/auth/login` - Iniciar sesión
-- `POST api/auth/refresh-token` - Renovar token
-- `GET api/auth/validate` - Validar Autenticación del usuario.
+## ⚠️ Warning
 
-### Contactos
-- `GET api/contacts` - Listar contactos
-
-
-## 🤝 Contribución
-
-Este es un proyecto de prueba y aprendizaje. Las contribuciones son bienvenidas para mejorar la implementación de seguridad.
-
-
-
-## ⚠️ Advertencia
-
-Este repositorio es solo para fines educativos y de prueba. No utilizar en producción sin una revisión de seguridad completa.
-
+This repository is for educational and testing purposes only. Do not use in production without a complete security review.
