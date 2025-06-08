@@ -2,7 +2,7 @@
 
 ## 🌐 Available Languages
 - [Español](README.es.md)  ← Estás aquí
-- [English](README) 
+- [English](README.md) 
 
 ## 📋 Descripción del Proyecto
 
