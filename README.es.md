@@ -85,8 +85,8 @@ No necesitas instalar nada localmente para probar las funcionalidades. Simplemen
 
 ## 🔧 Tecnologías Utilizadas
 
-- **Backend**: (Especificar: Node.js, Express, etc.)
-- **Base de datos**: (Especificar: MySQL, PostgreSQL, etc.)
+- **Backend**: (.NET)
+- **Base de datos**: (Sql Server)
 - **Autenticación**: JWT con cookies HTTP-Only
 - **Frontend**: (Especificar: React, Vue, etc.)
 
