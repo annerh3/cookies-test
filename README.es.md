@@ -85,10 +85,10 @@ No necesitas instalar nada localmente para probar las funcionalidades. Simplemen
 
 ## 🔧 Tecnologías Utilizadas
 
-- **Backend**: (.NET)
-- **Base de datos**: (Sql Server)
+- **Backend**: .NET
+- **Base de datos**: Sql Server
 - **Autenticación**: JWT con cookies HTTP-Only
-- **Frontend**: (Especificar: React, Vue, etc.)
+- **Frontend**: React JS
 
 ## 📡 Endpoints de la API
 
