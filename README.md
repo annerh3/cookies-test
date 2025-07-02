@@ -85,10 +85,10 @@ admin@gmail.com
 
 ## 🔧 Technologies Used
 
-- **Backend**: (Specify: Node.js, Express, etc.)
-- **Database**: (Specify: MySQL, PostgreSQL, etc.)
+- **Backend**: .NET
+- **Database**: SQL Server
 - **Authentication**: JWT with HTTP-Only cookies
-- **Frontend**: (Specify: React, Vue, etc.)
+- **Frontend**: React JS
 
 ## 📡 API Endpoints
 
