@@ -4,6 +4,9 @@
 - [Español](README.es.md)
 - [English](README.md) ← You are here
 
+> [!IMPORTANT]  
+> The servers for the application are currently unavailable. It'll be restored soon.
+
 ## 📋 Project Description
 
 This repository is a test implementation demonstrating the secure use of HTTP-Only cookies for authentication and authorization in web applications, as a safer alternative to storing JWT tokens in localStorage.
